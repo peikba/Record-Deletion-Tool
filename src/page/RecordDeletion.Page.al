@@ -1,4 +1,4 @@
-page 50000 "Record Deletion"
+page 95000 "Record Deletion"
 {
 
     PageType = List;
