@@ -430,6 +430,7 @@ codeunit 95000 "Record Deletion Mgt."
                     RecordDeletionRelError.SetRange("Table ID", RecordDeletion."Table ID");
                     RecordDeletionRelError.DeleteAll();
                 end;
+                Commit();
             until RecordDeletion.Next() = 0;
 
         UpdateDialog.Close();
